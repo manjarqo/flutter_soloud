@@ -34,7 +34,14 @@ dependencies:
   #https://pub.dev/packages/http
   http: ^1.1.0
   #https://pub.dev/packages/path_provider
-  path_provider: ^2.0.15
+
+  path_provider: ^2.1.1
+  path_provider_aurora:
+    git:
+      url: https://gitlab.com/omprussia/flutter/flutter-plugins.git
+      ref: master
+      path: packages/path_provider/path_provider_aurora
+
   
   plugin_platform_interface: ^2.1.5
 
